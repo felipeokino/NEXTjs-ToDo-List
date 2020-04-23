@@ -1,0 +1,17 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "main": "src/pages/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^9.3.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2",
+    "styled-components": "^5.1.0"
+  },
+  "scripts": {
+    "start": "next src",
+    "build": "next build && next export"
+  }
+}
